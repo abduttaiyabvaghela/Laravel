@@ -27,6 +27,6 @@ Route::get('posts/{post}/comments/{comment}', function ($postId, $commentId) {
     return 'This is Comments ID : '.$commentId; 
 });
 
-Route::get('user/{name?}', function ($name = null) {
-    return $name;
-});
+// Route::get('user/{name?}', function ($name = null) {
+//     return $name;
+// });
